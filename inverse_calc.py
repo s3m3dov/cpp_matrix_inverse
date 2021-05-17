@@ -83,6 +83,9 @@ if __name__ == '__main__':
 	# printing determinant value
     print(f'Determinant of the {n}x{n} matrix is:', DeterminantOfMatrix(matrix))
     print(f'Inverse of the {n}x{n} matrix is:')
-    PrintMatrix(InverseOfMatrix(matrix))
+    try:
+        PrintMatrix(InverseOfMatrix(matrix))
+    except:
+        print('The Matrix is Singular')
 
     input("Press any key to exit...")

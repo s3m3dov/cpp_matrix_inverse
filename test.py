@@ -1,4 +1,4 @@
-import unittest, time
+import unittest
 from inverse_calc import GetCofactor, DeterminantOfMatrix, AdjointOfMatrix, InverseOfMatrix
 
 
